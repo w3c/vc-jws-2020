@@ -17,7 +17,7 @@
         "privateKeyJwk": {
           "@id": "https://w3id.org/security#privateKeyJwk",
           "@context": {
-            "@vocab": "https://www.iana.org/assignments/jose/jose.xhtml#"
+            "@vocab": "https://www.iana.org/assignments/jose#"
           }
         }
       }
