@@ -90,7 +90,7 @@
     <section id="abstract">
       <p>
         This specification describes a JSON Web Signature Suite created in 2020
-        for the Linked Data Proof specification. The Signature Suite utilizes
+        for the Verifiable Credentials Data Integrity Proof specification. The Signature Suite utilizes
         Detached JWS signatures to provide support for a subset of the digital
         signature algorithms registered with IANA.
       </p>
@@ -178,9 +178,9 @@
         <dd>
           A
           <a
-            href="https://w3c-ccg.github.io/data-integrity-spec/#signatures"
+            href="https://w3c.github.io/vc-data-integrity/#proofs"
             class="externalDFN"
-            >linked data proof</a
+            >proof</a
           >
           which is a set of attributes that represent a linked data digital
           proof and the parameters required to verify it as defined by
@@ -499,14 +499,6 @@
 
         <section>
           <h3>JSON Web Signature 2020</h3>
-
-          <!-- "type": "JsonWebSignature2020",
-          "created": "2020-02-15T17:13:18Z",
-          "verificationMethod": "did:example:123#n4cQ-I_WkHMcwXBJa7IHkYu8CMfdNcZKnKsOrnHLpFs",
-          "proofPurpose": "assertionMethod",
-          "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJQUzI1NiJ9..WBMRV34Bm9BRTQtw-wlVP01y27vlbYRRv2BDfGVIjAG5GLppLfOuPOd5CmnApnVMV4Sy-2GLZMEie0qeUYwUbt9tk-euWEM3cy36iESugdEwL4GrOUUmr1YoE7ahEKn5CjPGq397V_96ljEeA5KJeV9ORro6rdk-CMMEMxCkLwgu3TFOwDMoJ7GBN3HviyNwf9MXQ3bWNwAN_TYuYXf7r8L50DAjp1mK2JdFgAc5dLbu4Jpb-qHUDyxguP0N5AeM0n-brndOlmyj8FeRe3Chj9JK8xw04HfScv0OMTNLu1QcZn32z9xytIIneo9TEnD25sEClrcNb_W6fl31wtsvdQ"
-     -->
-
           <p>
             The <code>verificationMethod</code> property of the proof SHOULD be
             a URI. Dereferencing the <code>verificationMethod</code> SHOULD
