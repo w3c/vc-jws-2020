@@ -1,5 +1,12 @@
 
-# Verifiable Credentials JSON Web Signature 2020 specification 
+# Withdrawn
+
+This work item has been withdrawn from the Verifiable Credentials Working Group.
+
+Implementers are advised to use [vc-jwt](https://github.com/w3c/vc-jwt) 
+to secure the Verifiable Credentials core data model using JSON Web Signatures.
+
+## Verifiable Credentials JSON Web Signature 2020 specification 
 
 We encourage contributions meeting the [Contribution
 Guidelines](CONTRIBUTING.md).  While we prefer the creation of issues
